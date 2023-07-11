@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="/app.js" defer></script>
+</head>
+<body>
+    <div class="preloader">
+        <img src="/images/Fidget-spinner.gif" alt="preloader">
+    </div>
+    <div class="container">
+        <div class="search">
+            <input id="cityname" type="text" placeholder="Enter City Name">
+            <button id="btn"><img src="/images/icons8-search.gif" alt="Search City"></button>
+        </div>
+        <div class="error">
+            <p>Location not found!</p>
+        </div>
+
+        <div class="weather">
+            <img src="/images/cloudy.png" class="icon" alt="">
+            <h1 class="celcius">22°c</h1>
+            <h2 class="city">Nigeria</h2>
+            <div class="detail">
+                <div class="col">
+                    <img src="/images/humidity.png" alt="">
+                    <div class="humidity">
+                        <p class="humidityP">
+                            20%
+                        </p>
+                        <p>
+                            Humidity
+                        </p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="/images/wind.png" alt="">
+                    <div class="wind">
+                        <p class="windS">
+                            20%
+                        </p>
+                        <p>
+                            Humidity
+                        </p>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
